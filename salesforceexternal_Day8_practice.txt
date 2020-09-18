@@ -1,0 +1,222 @@
+Please create custom page for contacts,
+standard components to include
+1 highlights panel
+2. REord detail
+3.Instead of tab ,try to use the accordion,
+just select case and activities in accordion
+Default this custom page for service app
+and system page for sales app
+
+SLDS = Bootstarp of Salesforce
+
+Model		Classic 		Lighting
+-----		-------			--------
+Model		Sobject			No change
+View		VF pages/layouts	lighting components/Custom components
+Controller	Apex classes		Apex ClassesJS controllers
+
+setup - Domain - my domain - infinite-dev
+
+
+1. App PAge
+2. Record Detail page
+
+-----
+<aura:attribute name ="amount" type="double"/>
+    <aura:attribute name ="duration" type="double"/>
+    <aura:attribute name ="roi" type="double"/>
+
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name ="amount" type="double"/>
+    <aura:attribute name ="duration" type="double"/>
+    <aura:attribute name ="roi" type="double"/>
+</aura:component>
+
+<lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
+
+
+<lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
+
+
+<lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
+
+from SpringPeople SpringPeople to everyone:
+<aura:attribute name ="amount" type="double"/>
+    <aura:attribute name ="duration" type="double"/>
+    <aura:attribute name ="roi" type="double"/>
+
+from SpringPeople SpringPeople to everyone:
+<aura:attribute name ="amount" type="double"/>
+    <aura:attribute name ="duration" type="double"/>
+    <aura:attribute name ="roi" type="double"/>
+
+from SpringPeople SpringPeople to everyone:
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name ="amount" type="double"/>
+    <aura:attribute name ="duration" type="double"/>
+    <aura:attribute name ="roi" type="double"/>
+</aura:component>
+
+from SpringPeople SpringPeople to everyone:
+<lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
+
+
+from SpringPeople SpringPeople to everyone:
+    <aura:attribute name ="amount" type="double"/>
+    <aura:attribute name ="duration" type="double"/>
+    <aura:attribute name ="roi" type="double"/>
+    
+    
+    Enter Amount : <ui:inputnumber value="{!v.amount]" />
+    Enter Duration : <ui:inputnumber value="{!v.duration}" />
+    Returns will be  : <ui:outputnumber value ="{!v.roi}"/>
+
+----
+
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name ="amount" type="double"/>
+    <aura:attribute name ="duration" type="double"/>
+    <aura:attribute name ="roi" type="double"/>
+
+       Enter Amount : <ui:inputnumber value="{!v.amount}" /> <br/>
+    Enter Duration : <ui:inputnumber value="{!v.duration}" /> <br/>
+    Returns will be  : <ui:outputnumber value ="{!v.roi}"/> <br/>
+<lightning:button variant="base" label="Base" title="Calculate returns" onclick="{! c.handleClick }"/>
+</aura:component>
+
+---
+<aura:application >
+    <c:lightcomp1/>
+</aura:application>
+
+---
+<aura:application extends ="force:slds" >
+    <c:lightcomp1/>
+</aura:application>
+
+---
+
+({
+    handleClick: function(component, event, helper) {
+        var x = component.get("v.amount");
+        var y = component.get("v.duration");
+        var z =0;
+        if(v.duration >9){
+            z = x *.09 +x;
+            component.set("v.roi",z);
+        }else{
+             z = x *.05 +x;
+            component.set("v.roi",z);
+            
+        }
+        
+        
+    }
+  
+})
+
+---
+comp:
+
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+   
+     <aura:attribute name ="amount" type="double"/>
+    <aura:attribute name ="duration" type="double"/>
+    <aura:attribute name ="roi" type="double"/>
+    
+    Enter Amount : <ui:inputnumber value="{!v.amount}" /><br/>
+    Enter Duration : <ui:inputnumber value="{!v.duration}" /><br/>
+    Returns will be  : <ui:outputnumber value ="{!v.roi}"/><br/>
+    
+    <lightning:button variant="base" label="Calculate returns" title="Calculate returns" onclick="{!c.handleClick}"/>
+    
+</aura:component>
+
+--
+controller:
+
+({
+    handleClick: function(component, event, helper) {
+        var x = component.get("v.amount");
+        var y = component.get("v.duration");
+        var z =0;
+        if(y>9){
+            z = x *.09 +x;
+            component.set("v.roi",z);
+        }else{
+             z = x *.05 +x;
+            component.set("v.roi",z);
+            
+        }
+        
+        
+    }
+  
+})
+----
+controller helper:
+---------
+({
+    handleClick: function(component, event, helper) {
+	helper.helperMethod(component);
+}})
+---
+
+helper
+-----
+
+
+({
+    helperMethod : function(component) {
+         var x = component.get("v.amount");
+        var y = component.get("v.duration");
+        var z =0;
+        if(y>9){
+            z = x *.09 +x;
+            component.set("v.roi",z);
+        }else{
+             z = x *.05 +x;
+            component.set("v.roi",z);
+            
+        }
+        console.log('this code is helpermethod');
+        
+    }
+})
+
+---
+
+Please practise the lightcomponent and the pages also 
+
+
+----
+
+from SpringPeople SpringPeople to everyone:
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    
+    <aura:attribute name ="amount" type="double"/>
+    <aura:attribute name ="duration" type="double"/>
+    <aura:attribute name ="roi" type="double"/>
+    
+    Enter Amount : <ui:inputnumber value="{!v.amount}" /><br/>
+    Enter Duration : <ui:inputnumber value="{!v.duration}" /><br/>
+    Returns will be  : <ui:outputnumber value ="{!v.roi}"/><br/>
+    
+    <lightning:button variant="base" label="Calculate returns" title="Calculate returns" onclick="{!c.handleClick}"/>
+    <lightning:button variant="base" label="inspect component object" title="inspect" onclick="{!c.method2}"/>
+</aura:component>
+from SpringPeople SpringPeople to everyone:
+({
+    handleClick: function(component, event, helper) {
+        
+        helper.helperMethod(component);
+    },
+    
+    method2 :function(component, event, helper)
+    {
+        console.log(component);
+    } 
+  
+})
+
+---

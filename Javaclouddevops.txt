@@ -1,0 +1,164 @@
+Blue Green Deployment - two networks - live and identical - 
+	static schema model -downtime required for database schema changes
+Rolling updates - taking some systems and deploying 
+
+
+Jenkins Ansible Integration:
+----------------------------
+Artifactory setup:
+==================
+8081 & 8082
+
+
+Sonarqube:
+==========
+
+Analysis of source code - iy manages seven axes of code quality, such as
+	architecture,design,duplications,unittests,potentialbugs,complexities
+	coding rules and comments
+
+- goto jenkins - sonar qube scanner
+	Qualitygate
+	Qualityprofile
+	Rules
+	
+in bin folder
+
+startsonar.bat
+
+- Variables unwanted
+- Documents
+- Comments
+- Resource closing
+
+------
+create security token -
+	administration -> myaccount- security
+
+
+- Create custom quality gates
+- Default quality gates
+- Integrate with jenkins
+- My quality is ot passed jenkins jobs should get failed
+
+
+1.Blocker
+2.Critical
+3.Major
+
+create out own Quality Gate
+---------------------------
+major- add condition 
+	- major issues are >= 5
+
+Sonarquality gate plugin - configure in configure system
+
+===========================================================
+
+Manage data in Docker:
+----------------------
+Why docker volumes:
+-------------------
+- Data is persistent
+- Volumes are easier to back up and migrate
+
+  /var/lib/docker/volumes/hash/_data
+
+Docker volume types:
+--------------------
+1. Anonymous volumes
+
+	$docker run -v /data01
+  it creates directory under
+	/var/lib/docker/volumes/randam-hash/_data
+- which volume is contain to which container is difficult to find
+
+2. Named volumes
+	$docker run -v vtwebuat02_data01_vol:/data01
+     it creates directory under
+	/var/lib/docker/volumes/vtwebuat02_data01_vol/_data
+
+3. host volumes or bind volumes
+	$docker run -v /opt/data01:/data01
+     it creates directory under
+	/opt/data01
+
+To share data among the containers we will use host volumes
+
+CTRL+P+Q = EXITING FROM RUNNING CONTAINER
+
+[root@ip-172-31-45-163 opt]# history
+    1  sudo yum update -y
+    2  sudo yum install docker
+    3  sudo service docker start
+    4  sudo usermod -a -G docker ec2-user
+    5  docker info
+    6  touch Dockerfile
+    7  vi Dockerfile
+    8  docker build -t hello-world .
+    9  docker images --filter reference=hello-world
+   10  dokcer images
+   11  docker images
+   12  docker run -t -i -p 80:80 hello-world
+   13  docker images
+   14  docker ps
+   15  docker ps -a
+   16  docker run -t -i -p 80:80 hello-world
+   17  docker --version
+   18  docker pull nginx
+   19  docker ps
+   20  docker l
+   21  docker ls
+   22  docker run -d vtwebint01 nginx
+   23  docker run -d --name vtwebint01 nginx
+   24  docker ps
+   25  docker rm -f 1cdcbd46ab91
+   26  docker ps
+   27  docker -v
+   28  service docker status
+   29  docker ps -a
+   30  docker volume ls
+   31  docker run -it --name vtwebint01 nginx /bin/bash
+   32  docker ps
+   33  docker ps -a
+   34  docker rm b2b92a92c6af
+   35  docker ps -a
+   36  docker run -it --name vtwebuat01 -v /data01 nginx /bin/bash
+   37  docker ps -a
+   38  docker rm 98cc8f5ef6de
+   39  docker ps -a
+   40  docker run -it --name vtwebuat02 -v vtwebuat02_data01_val:/data01 nginx /bin/bash
+   41  docker ps -a
+   42  docker rm -f 1c918e640486
+   43  cd /opt/
+   44  ll
+   46  mkdir data01
+   47  chmod 777 data01/
+   48  docker run -it --name vtwebuat03 -v /opt/data02:/data02 nginx /bin/bash
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+Local Git Workflow:
+-------------------
+- Working Copy
+- Staging	- git add, git status, git diff
+- Local repo	- git commit, git log, git diff-cache
+
+1. Install Git
+2. Select the project from home directory
+3. start development
+	- create file
+4. create git local repo.
+	- should be created in projct home directory only

@@ -1,0 +1,139 @@
+Lookup Relationship:
+====================
+type:
+----
+- Self Relationship
+-------------------
+A - A is related to A is self relationship
+student - student refered by another student
+
+- Hierarchial relationship:
+---------------------------
+- Self relationship on user object
+
+Many to Many relationship:
+--------------------------
+student table\
+	      Student in Group Table
+Groups table/
+
+- When we create many to many relationship we have to create new table with two foreign keys it referes to two tables
+
+- Junction Object - If your create many to many relationship the third table we create which is called Juntion object
+
+conflicts on owner:
+-------------------
+- Primary master relationship
+- Secondary master relationship
+
+- security field inherited from both the objects
+- We can create only 2 master-detail relationship fields on single object
+- In salesforce we can create max 40 relationship field
+
+	lookup = Total - Master Detail
+		  (40)
+
+
+Student
+Faculty
+Course
+Batch
+Rating
+
+- In Master-Detail Relationship - if parent is having only Ready only permission eventhough we can edit Child
+				- if parent is having both Read & Write permissions even we can edit Child
+				- Automatically Owner field will get deleted
+
+
+Validation Rules:
+=================
+- To check the whether the entered data valid or not
+
+Validation Rule:
+  1. Formula - Boolean(T/F) - it is false -> Record gets saved in database
+  2. Error
+				
+Registration fee < 5000
+
+Write a program if a student registered any other course then salesforce admin, sd, Bigdata then the regfee is should be 
+atleast 5000 or more, else it can be anything
+
+
+return false ===== Save
+return true ===== Error
+
+RegFees = 6000
+CourseOpted == 'Salesforce Admin'
+
+boolean valCheck(RegFees, CourseOpted)
+{
+	if (CourseOpted == 'Salesforce Admin' || CourseOpted == 'Salesforce Developer' || CourseOpted == 'Big Data'
+	 {
+		return false;
+	 }
+        else
+	 {
+		if(RegFees < 5000)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+
+	}
+
+}
+
+
+
+
+
+- For picklist we should not use "=" for verification
+
+- The Student name sholud not include numbers or special characters
+- student should atleast 12 yrs inorder to get enroll
+reg date should not be grater than today as well as 
+- phone no should not more than 10 digits
+- adhar no should 12 digits
+
+Roll-up Summary:
+================
+- To aggregate the child data and show that aggregated data in parent.
+- it should always create on the master in Master-Detail relationship
+
+Lookup Filter:
+=============
+
+Schema Builder:
+===============
+It's a UI functionality
+
+Self Relationship:
+==================
+calling student itself using lookup relationship
+
+
+Cross Object Formula Field:
+==========================
+Formula fields are always read only
+Deriving field from one object to another object is called "Cross object formula filed"
+
+Cross object formula filed create in Many side object to access one side field
+
+Cross object formula filed created on any type of relationship
+
+UI Customization:
+=================
+Page Layout:
+============
+1. Detail page record
+2. Edit page of the record
+
+- for hiding a filed we have to use field level security
+
+Mini Page Layouts, Compact Layout, Salesforce1, SalesforceA & ListViews:
+========================================================================
+Search Layouts:
+---------------

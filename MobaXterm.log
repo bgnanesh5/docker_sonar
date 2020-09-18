@@ -1,0 +1,352 @@
+[13:35.22.820]  Starting MobaXterm
+[13:35.22.820]  
+[13:35.22.820]  BEGIN AdaptToGlobalDPI
+[13:35.22.820]      AdaptToGlobalDPI: DPI=96
+[13:35.22.820]      BEGIN LaunchLoadFlatIconsThreads
+[13:35.22.820]          BEGIN WaitForLoadFlatIconsThreads
+[13:35.22.820]          END WaitForLoadFlatIconsThreads
+[13:35.22.820]          BEGIN WaitForGenerateStdListThreads
+[13:35.22.820]          END WaitForGenerateStdListThreads
+[13:35.22.820]          Loading flat icons 16
+[13:35.22.820]          Loading flat icons 22
+[13:35.22.820]          Loading flat icons 64
+[13:35.22.820]      END LaunchLoadFlatIconsThreads
+[13:35.22.820]  END AdaptToGlobalDPI
+[13:35.22.820]  
+[13:35.22.820]  BEGIN AddMobaConsoleFont
+
+[13:35.23.304]  END AddMobaConsoleFont
+[13:35.23.304]  
+[13:35.23.304]  BEGIN GetMobaseStream
+[13:35.23.304]  END GetMobaseStream
+
+[13:35.23.851]  - MobaXterm version: 20.3 Build 4396
+[13:35.23.851]  - Command line: "C:\Users\Administrator\Desktop\MobaXterm_Personal_20.3.exe"
+[13:35.23.851]  - Date: 2020-09-02
+[13:35.23.851]  - Windows version number: 10.0.2.17763.
+[13:35.23.851]  - Windows version name: Windows 10
+[13:35.23.851]  - Windows full name: Windows Server 2019 Datacenter 1809 build 17763
+[13:35.23.851]  - Windows architecture: 64-bits
+
+[13:35.24.430]  - User language: English (United States)
+[13:35.24.430]  - CPU architecture: x86
+[13:35.24.430]  - Detected DPI: 96
+[13:35.24.430]  - Current DPI: 96
+[13:35.24.431]  - CurDir: C:\Users\ADMINI~1\Desktop\
+[13:35.24.431]  - PersonalDir: C:\Users\ADMINI~1\DOCUME~1\
+[13:35.24.431]  - AppDataDir: C:\Users\ADMINI~1\AppData\Roaming\
+[13:35.24.431]  - LocalAppDataDir: C:\Users\ADMINI~1\AppData\Local\
+[13:35.24.431]  - DesktopDir: C:\Users\ADMINI~1\Desktop\
+[13:35.24.431]  - MobaProfileDir: C:\Users\ADMINI~1\DOCUME~1\
+[13:35.24.431]  - Free space in MobaProfileDir folder: 83770MB
+[13:35.24.431]  - TempDir: C:\Users\ADMINI~1\AppData\Local\Temp\2\
+[13:35.24.431]  - Free space in TempDir folder: 83770MB
+[13:35.24.431]  - Monitor #0: 1366x768
+[13:35.24.431]  - User name: Administrator
+[13:35.24.431]  - Computer name: EC2AMAZ-1K3IDM6
+[13:35.24.431]  - User is local administrator
+[13:35.24.431]  - Windows beta unicode support not set
+[13:35.24.431]  - Uptime: 9 days, 03:49:58
+[13:35.24.431]  - Windows PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Amazon\cfn-bootstrap\;C:\Program Files\Docker;C:\Users\Administrator\python.exe;C:\Users\Administrator\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python38\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\Scripts;C:\Users\Administrator\python.exe;
+[13:35.24.431]  - WSL not found
+[13:35.24.431]  
+[13:35.24.431]  BEGIN Form1.FormCreate
+[13:35.24.431]      Detecting installed/portable version
+[13:35.24.431]      --> portable version
+[13:35.24.431]      
+[13:35.24.431]      Detecting IniSettings
+[13:35.24.432]      MobaXterm will take its configuration from file "C:\Users\ADMINI~1\Desktop\MobaXterm.ini".
+[13:35.24.432]      (selected ini file seems to be writeable)
+[13:35.24.432]      --> IniSettings= C:\Users\ADMINI~1\Desktop\MobaXterm.ini
+[13:35.24.432]      
+[13:35.24.617]      
+[13:35.24.617]      Detecting ModeIni
+[13:35.24.617]      --> ModeIni= true
+[13:35.24.617]      
+[13:35.24.617]      Detecting CygUtils
+[13:35.24.617]      CygUtils NOT PRESENT
+[13:35.24.617]      --> Using CygPackage
+[13:35.24.617]      
+[13:35.24.617]      Detecting MobaXVTDir
+[13:35.24.617]      BEGIN IsFolderRW(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203)
+[13:35.24.648]      END IsFolderRW(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203) --> OK
+[13:35.24.648]      --> MobaXVTDir= C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203
+[13:35.24.648]      
+[13:35.24.648]      Detecting BinExeDir
+[13:35.24.648]      --> BinExeDir= C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\
+[13:35.24.648]      
+[13:35.24.648]      Detecting MobaXVTHomeDir
+[13:35.24.648]      --> MobaXVTHomeDir= C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\tmp\home_Administrator
+[13:35.24.648]      
+[13:35.24.648]      Skin detection
+[13:35.24.648]      Skin selected:
+[13:35.24.648]      Set Application Title
+[13:35.24.695]      
+[13:35.24.695]      BEGIN LoadExtensionsImageList
+[13:35.24.711]      END LoadExtensionsImageList
+[13:35.24.711]      
+[13:35.24.711]      BEGIN WaitForLoadFlatIconsThreads
+[13:35.24.711]      END WaitForLoadFlatIconsThreads
+[13:35.24.711]      BEGIN ReadCustomIcons
+[13:35.24.711]          No custom icon found.
+[13:35.24.711]      END ReadCustomIcons
+[13:35.24.711]      BEGIN LaunchGenerateStdListThreads
+[13:35.24.711]          BEGIN WaitForLoadFlatIconsThreads
+[13:35.24.711]          END WaitForLoadFlatIconsThreads
+[13:35.24.711]          BEGIN WaitForGenerateStdListThreads
+[13:35.24.711]          END WaitForGenerateStdListThreads
+[13:35.24.711]          Generating icons list 16 (real size 16)
+[13:35.24.711]          Generating icons list 22 (real size 22)
+[13:35.24.711]          Generating icons list 64 (real size 64)
+[13:35.24.711]      END LaunchGenerateStdListThreads
+[13:35.24.711]      Loading skins
+[13:35.24.711]      
+[13:35.24.711]      Detected Default Windows theme setting
+[13:35.24.711]      Detected that MsWindows is in bright mode. Activating bright mode
+[13:35.24.711]      
+[13:35.24.711]  END Form1.Create
+[13:35.24.711]  
+[13:35.24.711]  
+[13:35.24.711]  CREATING Form4
+
+[13:35.25.321]  BEGIN Form4.Create
+[13:35.25.337]      NbPenguins = 4
+[13:35.25.337]      CoeffPenguins = 96
+[13:35.25.337]      BEGIN LoadBookmarksFromIni
+[13:35.25.337]          FindOrCreateTreeFolders() (1)
+[13:35.25.337]      END LoadBookmarksFromIni
+[13:35.25.337]      BEGIN LoadMacrosFromIni
+[13:35.25.337]      END LoadMacrosFromIni
+[13:35.25.337]      Form4Create1
+[13:35.25.337]      Form4Create2
+[13:35.25.337]      BEGIN AdaptSidebarArrows
+[13:35.25.337]      END AdaptSidebarArrows
+[13:35.25.352]      Form4Create3
+[13:35.25.352]      GetMinWidth = 925
+[13:35.25.352]      GetMinHeight = 530
+[13:35.25.352]      Form4Create4
+[13:35.25.352]      IsNTFS(C:\) --> NTFS
+[13:35.25.352]      Slash drive is NTFS.
+[13:35.25.352]      Form4Create5
+[13:35.25.352]      Form4Create6
+[13:35.25.352]      Displaysidebarontheleft1Click: FormClick
+[13:35.25.352]      BEGIN AdaptSidebarArrows
+[13:35.25.352]      END AdaptSidebarArrows
+[13:35.25.352]      Form4Create7
+[13:35.25.352]      Form4Create8
+[13:35.25.352]      Form4Create9
+[13:35.25.352]      ShowButtonsbar1Click: FormClick
+[13:35.25.352]      Form4Create10
+[13:35.25.352]      Form4Create12
+[13:35.25.352]      SmallButtons1Click: FormClick
+[13:35.25.352]      GetMinWidth = 925
+[13:35.25.352]      GetMinHeight = 526
+[13:35.25.352]      Form4Create13
+[13:35.25.352]      Form4Create14
+[13:35.25.352]  END Form4.Create
+[13:35.25.352]  
+[13:35.25.352]  
+[13:35.25.352]  CREATING FormParams
+[13:35.25.446]  BEGIN TFormParams.FormCreate
+[13:35.25.462]  END TFormParams.FormCreate
+[13:35.25.462]  
+[13:35.25.462]  
+[13:35.25.462]  CREATING FormSessionEdit
+[13:35.25.821]  BEGIN FormSessionEdit.Create
+[13:35.25.868]      BEGIN TFormSessionEdit.FindIP
+[13:35.25.993]      END TFormSessionEdit.FindIP
+[13:35.25.993]  END FormSessionEdit.Create
+[13:35.25.993]  
+[13:35.25.993]  
+[13:35.25.993]  CREATING FormTransparente
+[13:35.25.993]  
+[13:35.25.993]  
+[13:35.25.993]  CREATING FormTermConfirmClose
+[13:35.25.993]  
+[13:35.25.993]  
+[13:35.25.993]  CREATING FormManagePasswords
+[13:35.26.056]  BEGIN TFormManagePasswords.FormCreate
+[13:35.26.056]  END TFormManagePasswords.FormCreate
+[13:35.26.056]  
+[13:35.26.056]  
+[13:35.26.056]  DONE CREATING FORMS
+[13:35.26.056]  
+[13:35.26.056]  
+[13:35.26.056]  
+[13:35.26.056]  
+[13:35.26.056]  BEGIN Form1.Show
+[13:35.26.056]  END Form1.Show
+[13:35.26.212]  
+[13:35.26.212]  Launching Form1.Timer1Timer
+[13:35.26.212]  
+[13:35.26.212]  
+[13:35.26.212]  
+[13:35.26.212]  
+[13:35.26.212]  ================================================================================
+[13:35.26.212]  ~    INI file content (C:\Users\ADMINI~1\Desktop\MobaXterm.ini)    ~
+[13:35.26.212]  ================================================================================
+[13:35.26.212]  
+[13:35.26.212]  
+[Misc]
+PasswordsInRegistry=0
+LastSession=52.66.198.51 (ec2-user)| #109#0%52.66.198.51%22%ec2-user%%-1%-1%%%%%0%0%0%_ProfileDir_\Downloads\Pemkey.pem%%-1%0%0%0%%1080%%0%0%1#MobaFont%10%0%0%-1%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+RightClickAction=0
+RightClickAssigned=1
+
+[Recently started]
+16=
+15=
+14=
+13=
+12=
+11=
+10=
+9=52.66.115.202 (ec2-user)
+8=13.235.135.22 (ec2-user)
+7=13.234.19.152 (ec2-user)
+6=52.66.168.51 (ec2-user)
+5=13.127.3.82 (ec2-user)
+4=13.233.103.175 (ec2-user)
+3=52.66.168.51 (ec2-user) (1)
+2=13.233.150.74 (ec2-user)
+1=52.66.198.51 (ec2-user)
+
+[SSH_Hostkeys]
+ssh-ed25519@22:52.66.168.51=0x201a3414b83fefa5c65db8692094f3be4d7065df1949094f4eb2a0e19c16546f,0x1cae2fdee9a3ea15daa370c9f2e0481713bb9cc6783f22c7c78c26534be9a28d
+ssh-ed25519@22:52.66.115.202=0x21ae1988df62594ee439d5e7c83827b7f861a8d1848c7e90bb71a81147faeccc,0x1abfd052cbccd7d8ec1bdd48a17a774b23c4a3b827217c0e8f049efb8e72eb27
+ssh-ed25519@22:13.235.135.22=0x6b0d91a45b6f40a7812d162b219b92aa23d22e00b7ea0ec74e82f0f9d88b3854,0x6689a761a7f5b1bc56b6454ad05ea0f2971bb035ca0d3a832983f9a0b14a14e2
+ssh-ed25519@22:13.234.19.152=0x6b0d91a45b6f40a7812d162b219b92aa23d22e00b7ea0ec74e82f0f9d88b3854,0x6689a761a7f5b1bc56b6454ad05ea0f2971bb035ca0d3a832983f9a0b14a14e2
+ssh-ed25519@22:13.127.3.82=0x3de89bacfc2ae97795d5d06d8315195712544bc84474273a81a80ce8b700ec4a,0x21093d0d23b7d42d2bfe1f049a5436349c26ef921c0eb10a9427a8e5194fc8c6
+ssh-ed25519@22:13.233.103.175=0x3e8e9bd67eac1a4021cc18808af28860445278f02bc07af708e9de9b1b4f04c0,0x31724990adcdc6d893d1cba2888a17d450b0d8c19924b63e4c9b1310c98421df
+ssh-ed25519@22:13.233.150.74=0x3e8e9bd67eac1a4021cc18808af28860445278f02bc07af708e9de9b1b4f04c0,0x31724990adcdc6d893d1cba2888a17d450b0d8c19924b63e4c9b1310c98421df
+ssh-ed25519@22:52.66.198.51=0x201a3414b83fefa5c65db8692094f3be4d7065df1949094f4eb2a0e19c16546f,0x1cae2fdee9a3ea15daa370c9f2e0481713bb9cc6783f22c7c78c26534be9a28d
+
+[WindowPos_EC2AMAZ-1K3IDM6_1366_768]
+CompactMode=0
+MonitorCount=1
+Left=-8
+Top=-8
+Width=1382
+Height=744
+Maximized=1
+SidebarVisible=1
+SidebarWidth=240
+
+[Display]
+SidebarRight=0
+C10Checked=1
+C11Checked=1
+C12Checked=1
+C13Checked=0
+C14Checked=0
+VisibleTabNum=1
+VisibleTabClose=1
+MenuAndButtons=2
+BtnType2=2
+
+[SSH]
+SFTPShowDotFiles=1
+SFTPAsciiMode=0
+
+[Bookmarks]
+SubRep=
+ImgNum=42
+13.233.150.74 (ec2-user)= #109#0%13.233.150.74%22%ec2-user%%-1%-1%%%%%0%0%0%_ProfileDir_\Downloads\Pemkey.pem%%-1%0%0%0%%1080%%0%0%1#MobaFont%10%0%0%-1%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+52.66.198.51 (ec2-user)= #109#0%52.66.198.51%22%ec2-user%%-1%-1%%%%%0%0%0%_ProfileDir_\Downloads\Pemkey.pem%%-1%0%0%0%%1080%%0%0%1#MobaFont%10%0%0%-1%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+
+[LastInstanceSessions]
+0= 
+1=13.233.150.74 (ec2-user)
+2=52.66.198.51 (ec2-user)
+
+[13:35.26.212]  
+[13:35.26.212]  
+[13:35.26.212]  ================================================================================
+[13:35.26.212]  
+[13:35.26.212]  
+[13:35.26.212]  
+[13:35.26.212]  
+[13:35.26.212]  
+[13:35.26.212]  Detecting if a Master Password is required by INI file
+[13:35.26.212]  No Master Password required by INI file
+[13:35.26.212]  No master password detected. Identifying the need for a migration...
+[13:35.26.212]  Looking for previously stored passwords in INI file
+[13:35.26.212]  No stored password found in INI file
+[13:35.26.212]  NeedMigration:=false
+[13:35.26.212]  
+[13:35.26.212]  BEGIN CreerFstab
+[13:35.26.212]      CreerFstab: RootDirectory = C:/Users/ADMINI~1/AppData/Local/Temp/2/Mxt203
+[13:35.26.212]      CreerFstab: HomeDirectory = C:/Users/ADMINI~1/AppData/Local/Temp/2/Mxt203/tmp/HOME_A~1
+[13:35.26.212]  END CreerFstab
+[13:35.26.212]  BEGIN extraireFichiers1
+[13:35.26.212]      BEGIN CreerProfile
+[13:35.26.212]          !!!! Exception EFCreateError: Cannot create file "C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\profile". The process cannot access the file because it is being used by another process during SaveStringListToUnixFile(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\profile)
+[13:35.26.243]      END CreerProfile
+[13:35.26.243]      BEGIN CreerSshConfig
+[13:35.26.274]      END CreerSshConfig
+[13:35.26.274]      BEGIN CreerBaseProfile
+[13:35.26.274]          NEW PLUGIN: mobase
+[13:35.26.274]          BEGIN ProcessPlugin(mobase)
+[13:35.26.274]              BEGIN WaitForGetMobaseStream
+[13:35.26.274]              END WaitForGetMobaseStream
+[13:35.26.274]          END ProcessPlugin(mobase)
+[13:35.26.274]          !!!! Exception EFCreateError: Cannot create file "C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\baseprofile". The process cannot access the file because it is being used by another process during SaveStringListToUnixFile(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\baseprofile)
+[13:35.26.274]      END CreerBaseProfile
+[13:35.26.274]      BEGIN MkGroupFile
+[13:35.26.274]          BEGIN GetLocalGroups
+[13:35.26.308]          END GetLocalGroups
+[13:35.26.308]          SaveStringListToUnixFile(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\group)
+[13:35.26.324]          MkGroupFile OK
+[13:35.26.324]      END MkGroupFile
+[13:35.26.324]      BEGIN MkPasswdFile
+[13:35.26.324]          Current Domain: EC2AMAZ-1K3IDM6
+[13:35.26.324]          BEGIN Bui_GetWindowsUsersAccount
+[13:35.26.324]          END Bui_GetWindowsUsersAccount
+[13:35.26.371]          MkPasswdFile OK
+[13:35.26.371]      END MkPasswdFile
+[13:35.26.371]      BEGIN CreerNsswitch
+[13:35.26.386]      END CreerNsswitch
+[13:35.26.386]      Request for file extraction: /bin/scrdaemons
+[13:35.26.386]      CreateSymbolicLink(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\scrdaemons, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\init.d\tftp);
+[13:35.26.402]      CreateSymbolicLink(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\scrdaemons, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\init.d\ftp);
+[13:35.26.418]      CreateSymbolicLink(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\scrdaemons, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\init.d\http);
+[13:35.26.418]      CreateSymbolicLink(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\scrdaemons, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\init.d\ssh);
+[13:35.26.418]      CreateSymbolicLink(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\scrdaemons, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\init.d\telnet);
+[13:35.26.433]      CreateSymbolicLink(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\scrdaemons, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\init.d\nfs);
+[13:35.26.433]      CreateSymbolicLink(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\scrdaemons, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\init.d\vnc);
+[13:35.26.449]      Request for file extraction: /bin/cygtermd.exe
+[13:35.26.449]      Request for file extraction: /bin/cygz.dll
+[13:35.26.449]      Request for file extraction: /bin/cyggcc_s-1.dll
+[13:35.26.449]      Request for file extraction: /bin/cygwin-console-helper.exe
+[13:35.26.449]      Request for file extraction: /bin/ssh.exe
+[13:35.26.449]      Request for file extraction: /etc/bash.bash_logout
+[13:35.26.449]      Request for file extraction: /etc/profile.d
+[13:35.26.449]      Request for file extraction: /etc/profile.d/*
+[13:35.26.449]      CreerRaccourciVersMobaXterm(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\MobaListPorts, -listports);
+[13:35.26.464]      CreerRaccourciVersMobaXterm(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\MobaPictureViewer, -picview);
+[13:35.26.480]      CreerRaccourciVersMobaXterm(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\MobaTextEditor, -edit);
+[13:35.26.480]      !!!! Exception EFCreateError: Cannot create file "C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\MobaTextEditor". The process cannot access the file because it is being used by another process during CreerRaccourciVersMobaXterm
+[13:35.26.480]      CreerRaccourciVersMobaXterm(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\MobaGitEditor, -gitedit);
+[13:35.26.496]      CreerRaccourciVersMobaXterm(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\MobaCompareFiles, -compfiles);
+[13:35.26.496]      !!!! Exception EFCreateError: Cannot create file "C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\MobaCompareFiles". The process cannot access the file because it is being used by another process during CreerRaccourciVersMobaXterm
+[13:35.26.496]      CreerRaccourciVersMobaXterm(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\MobaCompareFolders, -compfolders);
+[13:35.26.511]      Request for file extraction: /usr/share/terminfo/78/xterm
+[13:35.26.511]      Request for file extraction: /usr/share/terminfo/63/cygwin
+[13:35.26.511]      Request for file extraction: /etc/bash_completion
+[13:35.26.511]      Request for file extraction: /usr/share/zoneinfo/posixrules
+[13:35.26.511]      File posixrules extracted successfully.
+[13:35.26.511]      Request for file extraction: /etc/inputrc
+[13:35.26.511]  END extraireFichiers1
+[13:35.26.511]  CreateSymbolicLink(/proc/registry, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\registry);
+[13:35.26.527]  CreateSymbolicLink(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\bash.exe, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\bin\sh);
+[13:35.26.558]  CreateSymbolicLink(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\drives, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\cygdrive);
+[13:35.26.558]  CreateSymbolicLink(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\drives, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\mnt);
+[13:35.26.574]  CreateSymbolicLink(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\drives, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\media);
+[13:35.26.574]  CreateSymbolicLink(/proc/registry, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\registry);
+[13:35.26.589]  CreateSymbolicLink(C:\Windows\system32\drivers\etc\hosts, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\hosts);
+[13:35.26.605]  CreateSymbolicLink(C:\Windows\system32\drivers\etc\networks, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\networks);
+[13:35.26.621]  CreateSymbolicLink(C:\Windows\system32\drivers\etc\protocol, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\protocol);
+[13:35.26.647]  CreateSymbolicLink(C:\Windows\system32\drivers\etc\services, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\etc\services);
+[13:35.26.667]  CreateSymbolicLink(C:\Users\ADMINI~1\Desktop\, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\tmp\home_Administrator\Desktop);
+[13:35.26.682]  CreateSymbolicLink(C:\Users\ADMINI~1\DOCUME~1\, C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\tmp\home_Administrator\MyDocuments);
+[13:35.26.698]  !!!! Exception EFCreateError: Cannot create file "C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\tmp\home_Administrator\README.txt". The process cannot access the file because it is being used by another process during SaveStringListToUnixFile(C:\Users\ADMINI~1\AppData\Local\Temp\2\Mxt203\tmp\home_Administrator\README.txt)
