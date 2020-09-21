@@ -138,6 +138,22 @@ CTRL+P+Q = EXITING FROM RUNNING CONTAINER
 
 
 
+Using Named volumes for Jenkins:
+================================
+Jenkins container:
+------------------
+/var/jenkins_home
+
+/var/lib/docker/volumes/<volume_name>/_data
+
+Using Bind Volumes for Jenkins:
+-------------------------------
+
+Jenkins container:
+------------------
+/var/jenkins_home
+	|
+/opt/docker/jenkins
 
 
 
